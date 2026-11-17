@@ -1,0 +1,22 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+/vendor/
+composer.phar
+
+# Payment upload receipts (Private transaction proofs)
+uploads/payments/*
+!uploads/payments/.htaccess
+!uploads/payments/.gitkeep
+
+# Operating System & IDE files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
