@@ -13,8 +13,40 @@ Dibangun dengan arsitektur multi-role profesional (Admin, Staff, User), sistem k
 
 ---
 
+## 📸 Preview Tampilan Website
+
+Berikut adalah beberapa tangkapan layar antarmuka dari sistem **Pink Outdoor Gear Rent**:
+
+### 🌟 Halaman Utama & Katalog Penyewaan
+<p align="center">
+  <img src="assets/img/screenshots/home.png" alt="Beranda Utama" width="100%">
+</p>
+
+| 🔍 Katalog Pencarian & Filter Alat | ⛺ Detail Gear & Sistem Ulasan Pelanggan |
+| :---: | :---: |
+| <img src="assets/img/screenshots/katalog.png" alt="Katalog Gear" width="100%"> | <img src="assets/img/screenshots/detail.png" alt="Detail Gear & Review" width="100%"> |
+
+| 📦 Paket Camping Hemat | 🛒 Keranjang Belanja Sewa |
+| :---: | :---: |
+| <img src="assets/img/screenshots/paket.png" alt="Paket Camping" width="100%"> | <img src="assets/img/screenshots/cart.png" alt="Keranjang Belanja" width="100%"> |
+
+---
+
+### 🛡️ Autentikasi & Panel Kontrol (Admin & Staff)
+
+| 🔐 Halaman Masuk (Multi-Role & Google SSO) | 📊 Dashboard Eksekutif Administrator |
+| :---: | :---: |
+| <img src="assets/img/screenshots/login.png" alt="Halaman Login" width="100%"> | <img src="assets/img/screenshots/admin-dashboard.png" alt="Dashboard Admin" width="100%"> |
+
+| ⚙️ Manajemen Gear & Kategori (Admin) | 📋 Dashboard Operasional Staff Lapangan |
+| :---: | :---: |
+| <img src="assets/img/screenshots/admin-products.png" alt="Manajemen Produk" width="100%"> | <img src="assets/img/screenshots/staff-dashboard.png" alt="Dashboard Staff" width="100%"> |
+
+---
+
 ## 📑 Daftar Isi
 
+- [Preview Tampilan Website](#-preview-tampilan-website)
 - [Fitur Utama](#-fitur-utama)
   - [Modul Administrator](#-modul-administrator-admin)
   - [Modul Staff Operasional](#-modul-staff-operasional-staff)
@@ -284,9 +316,9 @@ Database awal telah menyediakan 3 akun siap pakai untuk pengujian:
 
 | Peran (Role) | Email | Kata Sandi | Dashboard Akses |
 | :--- | :--- | :--- | :--- |
-| **Super Admin** | `admin@pinkoutdoor.id` | `Password123!` | [admin/index.php](http://localhost/pink-outdoor/admin/index.php) |
-| **Staff Operasional** | `staff@pinkoutdoor.id` | `Password123!` | [staff/index.php](http://localhost/pink-outdoor/staff/index.php) |
-| **Pelanggan (User)** | `user@pinkoutdoor.id` | `Password123!` | [index.php](http://localhost/pink-outdoor/index.php) |
+| **Super Admin** | `admin@pinkoutdoor.id` | `123456` | [admin/index.php](http://localhost/pink-outdoor/admin/index.php) |
+| **Staff Operasional** | `staff@pinkoutdoor.id` | `123456` | [staff/index.php](http://localhost/pink-outdoor/staff/index.php) |
+| **Pelanggan (User)** | `user@pinkoutdoor.id` | `123456` | [index.php](http://localhost/pink-outdoor/index.php) |
 
 > ⚠️ **PERINGATAN**: Demi keamanan saat dideploy ke server produksi, segera ubah kata sandi akun default di atas melalui halaman profil!
 
